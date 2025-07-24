@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Registration Form</h1>
+    <form id="regForm" onsubmit="return validateForm()">
+      <label
+        >User Id:
+        <input type="text" id="userid" placeholder="5 to 12 chars" /></label
+      ><br /><br />
+      <label
+        >Password:
+        <input
+          type="password"
+          id="password"
+          placeholder="7 to 12 chars" /></label
+      ><br /><br />
+      <label
+        >Name:
+        <input type="text" id="name" placeholder="Alphabets only" /></label
+      ><br /><br />
+      <label
+        >Address:
+        <textarea
+          id="address"
+          rows="2"
+          placeholder="Optional"
+        ></textarea></label
+      ><br /><br />
+      <label
+        >Country:
+        <select id="country">
+          <option value="">Select Country</option>
+          <option value="India">India</option>
+          <option value="Sri Lanka">Sri Lanka</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Bhutan">Bhutan</option>
+        </select> </label
+      ><br /><br />
+      <label
+        >ZIP Code:
+        <input type="text" id="zip" placeholder="Numbers only" /></label
+      ><br /><br />
+      <label
+        >Email:
+        <input type="text" id="email" placeholder="example@domain.com" /></label
+      ><br /><br />
+      Sex:
+      <label><input type="radio" name="sex" value="Male" />Male</label>
+      <label><input type="radio" name="sex" value="Female" />Female</label
+      ><br /><br />
+      Language:
+      <label
+        ><input type="checkbox" name="language" value="English" />English</label
+      >
+      <label
+        ><input type="checkbox" name="language" value="Non English" />Non
+        English</label
+      ><br /><br />
+      <label
+        >About:
+        <textarea id="about" rows="2" placeholder="Optional"></textarea></label
+      ><br /><br />
+      <button type="submit">Submit</button>
+      <div id="errorMessages" class="error"></div>
+    </form>
+    <table id="resultTable" style="display: none">
+      <thead>
+        <tr>
+          <th>User Id</th>
+          <th>Password</th>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Country</th>
+          <th>ZIP Code</th>
+          <th>Email</th>
+          <th>Sex</th>
+          <th>Language</th>
+          <th>About</th>
+        </tr>
+      </thead>
+      <tbody id="resultTableBody"></tbody>
+    </table>
+    <script src="script2.js"></script>
+  </body>
+</html>
