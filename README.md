@@ -22,14 +22,17 @@ To get a local copy up and running, follow these simple steps.
 Make sure you have Node.js and npm installed on your machine.
 
  ```bash
-   npm
+npm
 npm install npm@latest -g
 
    ```
 
 ## Installation & Setup
 Clone the repository to your local machine.
-git clone https://github.com/your-username/your-repo-name.git
+ ```bash
+   git clone https://github.com/shubhangam-singh/simple-clock-and-type-selection-app.git
+   ```
+
 
 ## Navigate into the project directory.
  ```bash
@@ -37,7 +40,10 @@ git clone https://github.com/your-username/your-repo-name.git
    ```
 
 ## Install the required NPM packages.
-npm install
+ ```bash
+   npm install
+   ```
+
 
 ## Run the application in development mode.
  ```bash
