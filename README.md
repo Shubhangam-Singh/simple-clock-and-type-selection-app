@@ -30,24 +30,24 @@ npm install npm@latest -g
 ## Installation & Setup
 Clone the repository to your local machine.
  ```bash
-   git clone https://github.com/shubhangam-singh/simple-clock-and-type-selection-app.git
+git clone https://github.com/shubhangam-singh/simple-clock-and-type-selection-app.git
    ```
 
 
 ## Navigate into the project directory.
  ```bash
-   cd simple-clock-and-type-selection-app
+cd simple-clock-and-type-selection-app
    ```
 
 ## Install the required NPM packages.
  ```bash
-   npm install
+npm install
    ```
 
 
 ## Run the application in development mode.
  ```bash
-   npm start
+npm start
    ```
 
 
